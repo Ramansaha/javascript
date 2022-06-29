@@ -23,6 +23,7 @@ for (var i = 0; i < myString.length; i++)
         temp = temp + myString.charAt(i);
 }
 }
+console.log("Output for problem 1 : \n");
 console.log(temp);
 
 // Write a function to remove all even numbers from an Array.
@@ -35,6 +36,7 @@ function removeEven(numbers){
 return numbers.filter(n => n % 2 !== 0)
 }
 const oddNumbers = removeEven( [1, 3, 4, 6, 7, 8]);
+console.log("Output for problem 2 : \n");
 console.log(oddNumbers);
  
 // Write a function to find the maximum number in an array.
@@ -55,4 +57,5 @@ function maxNumber(arr){
 return max;
 }
 let arr = [1, 3, 4, 6, 7, 8, 2, 5];
+console.log("Output for problem 3 : \n");
 console.log(maxNumber(arr));
